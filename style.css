@@ -1,0 +1,30 @@
+:root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: wheat;
+}
+main {
+  padding: 0px;
+  position: relative;
+  display: flex;
+  width: 100vw;
+}
+button {
+  position: absolute;
+  margin: 10px;
+}
+.box {
+  padding: 40px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.box:hover {
+  background-color: black !important;
+  color: wheat;
+}
