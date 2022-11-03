@@ -3,6 +3,7 @@
 }
 
 body {
+  user-select: none;
   box-sizing: border-box;
   font-family: monospace;
   letter-spacing: 2px;
@@ -45,14 +46,13 @@ button:hover {
 }
 
 .boxes {
-  gap: 10px;
   padding: 0px;
   position: relative;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 .box {
+  margin: 10px;
   padding: 40px;
   width: 100px;
   height: 100px;
